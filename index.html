@@ -4,45 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/recipename.html">Mom's Potato Latkes Recipe</a>
-    <img src="Recipes/latkes.jpg" alt="">
+    <nav class="navbar navbar-expand-lg bg-dark text text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="description">
-        <h2>Lorem ipsum dolo</h2>
-        <p>
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat.
-        </p> 
+    <div class="container">
+        <div class="layout" id="header">
+            <div class="description">
+                <h1>Potato Latkes with Love</h1>
+                <p>
+                    Experience the warmth of home 
+                    with Mom's Potato Latkes recipe. 
+                    These golden, crispy potato pancakes 
+                    are a cherished family tradition passed 
+                    down through generations. Made with love 
+                    and care, each bite is a delicious journey 
+                    into the heart of our family's kitchen.
+                </p>
+                <button>Get the Recipe</button>
+            </div>
+            
+            <div class="latkes">
+                <img src="images/latkes.jpg" alt="Potato Latkes" id="latkes">
+            </div>
+            
+        </div>
+
+        <div class="layout" id="explore">
+
+        </div>
     </div>
     
-    <div class="ingredients">
-        <h3>Ingredients</h3>
-        <ul>
-            <li>3 cups shredded potato</li>
-            <li>¼ cup grated onion</li>
-            <li>2 large eggs, beaten</li>
-            <li>6 saltine crackers, or as needed, crushed</li>
-            <li>½ teaspoon salt, or more to taste</li>
-            <li>¼ teaspoon ground black pepper</li>
-            <li>½ cup vegetable oil, or as needed</li>
-        </ul>
-    </div>
+    <footer>
 
-    <div class="more">
-        <h3>More recipes</h3>
-        <ul>
-            <li><a href="https://www.allrecipes.com/recipe/216564/swedish-meatballs-svenska-kottbullar/">Swedish Meatballs Recipe</a></li>
-            <li><a href="https://www.allrecipes.com/bacon-wrapped-dates-with-goat-cheese-recipe-8367330">Bacon-Wrapped Dates with Goat Cheese Recipe</a></li>
-        </ul>
-    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

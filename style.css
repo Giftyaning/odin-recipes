@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+/* Root */
+    /* Foot sizes */
+    h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    /* Colours */
+    /*Shour be applied only when clicked on */
+    a{
+        color: darkblue;
+        text-decoration: underline;
+    }
+
+    /* Sizes */
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: aquamarine;
+        min-height: 100vh;
+        padding: 50px 5px;
+    }
+    .layout{
+        width: 70em;
+        border-radius: 5px;
+        background: #D9D9D9;
+    }
+    #header{
+        height: 20em;
+        padding: 15px;
+        display: flex;
+        gap: 50px;
+    }
+    #explore{
+        height: 30em;
+    }
+    button{
+        width: 8.5rem;
+        height: 1.7rem;
+        border-radius: 12px;
+        background: #8A655D;
+        box-shadow: 0px -5px 6.2px 0px rgba(0, 0, 0, 0.25) inset, -3px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+    #latkes{
+        height: 18rem;
+        width: 25rem;
+    }
+
+/* Animations */
+
+
+
+
+
+/* Navbar */
+
+/* Header */
+
+/* Explore */
+
+/* Footer */
+
+/* Media queries */
