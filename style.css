@@ -7,8 +7,8 @@
 }
 
 body{
-    background-color: black;
-    color: #fff;
+    background-color: rgb(245, 242, 242);
+    color: #000;
 }
 
 /* Root */
@@ -18,12 +18,12 @@ body{
         font-weight: 700;
     }
     h2 {
-        font-size: 3rem;
-        font-weight: 700;
+        font-size: 2.5rem;
+        font-weight: 650;
     }
 
     /* Colours */
-    /*Shour be applied only when clicked on */
+    /*Should be applied only when clicked on */
     a{
         color: darkblue;
         text-decoration: underline;
@@ -35,7 +35,6 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
         min-height: 100vh;
         padding: 50px 5px;
     }
@@ -44,6 +43,8 @@ body{
         border-radius: 5px;
         
     }
+
+
     #header{
         height: 20em;
         padding: 15px;
@@ -55,10 +56,10 @@ body{
         height: 40em;
         padding: 15px;
         display: flex;
-        gap: 50px;
+        gap: 45px;
         margin-top: 0;
     }
-    button{
+    .custom-button{
         width: 10rem;
         height: 2.5rem;
         border-radius: 12px;
@@ -72,24 +73,82 @@ body{
         margin-bottom: 0;
         margin-left: -50rem;
     }
+
+
     #latkes{
         height: 18rem;
         width: 27.5rem;
+        position: relative;
     }
+    .overlay {
+        position: relative;
+        margin-top: -18rem;
+        height: 18rem;
+        width: 27.5rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
 
+/* Brown sugar  */
+    .recipe-card {
+        position: relative;
+        text-align: start;
+    }
+    .recipe-card h2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 10px;
+        z-index: 2;
+    }
     .brown-sugar{
-        width: 13rem;
+        width: 18rem;
         height: 38rem;
     }
-    .more{
-        width: 25rem;
-        height: 17.5rem;
+    #sugar{
+        position: absolute;
+        width: 18rem;
+        height: 38rem;
+        margin-top: -37.9rem;
     }
+
+
     .row{ 
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+
+/* Explore More */
+    .more {
+        position: relative;
+        text-align: start;
     }
+    .more h2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 10px 20px;
+        z-index: 2;
+    }
+    .more img{
+        width: 27rem;
+        height: 17.5rem;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    #ziti {
+        position: relative;
+        width: 27rem;
+        height: 18rem;
+    }
+    
+    
+    
 /* Animations */
 
 
@@ -97,6 +156,14 @@ body{
 
 
 /* Navbar */
+.navbar {
+    background-color: rgb(245, 242, 242);
+    color: #000;
+}
+
+.navbar ul {
+    margin-left: auto;
+}
 
 /* Header */
 

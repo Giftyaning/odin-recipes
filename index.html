@@ -10,22 +10,22 @@
     <title>Recipes</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark text text-light">
+    <nav class="navbar navbar-expand-lg border-bottom border-body" >
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -45,23 +45,40 @@
                     and care, each bite is a delicious journey 
                     into the heart of our family's kitchen.
                 </p>
-                <button>Get the Recipe</button>
+                <button class="custom-button">Get the Recipe</button>
             </div>
         
             <div class="latkes">
                 <img src="images/latkes.jpg" alt="Potato Latkes" id="latkes">
+                <div class="overlay"></div>
             </div>
             
         </div>
 
         <h2 class="see-more">Explore More</h2>
         <div class="layout" id="explore">
-            <aside> <img src="images/Brown-sugar.png" alt="brown-sugar" class="brown-sugar"></aside>
+            <aside class="recipe-card"> 
+                <h2>Brown sugar meat loaf</h2>
+                <img src="images/Brown-sugar.png" alt="brown-sugar" class="brown-sugar">
+                <div class="overlay" id="sugar"></div>
+            </aside>
+
             <div class="row">
-                <img src="images/baked ziti.png" alt="baked-ziti" class="more">
-                <img src="images/fluffy pancakes.png" alt="fluffy-pancakes" class="more">
-                <img src="images/classic goulash.png" alt="classic-goulash" class="more">
-                <img src="images/Hibatchi.jpg" alt="hibatchi" class="more">
+               
+                <div class="more">
+                    <h2>Baked ziti</h2>
+                    <img src="images/baked ziti.png" alt="baked-ziti">  
+                    <div class="overlay" id="ziti"></div>
+                </div>
+                <!--
+                <img src="images/fluffy pancakes.png" alt="fluffy-pancakes">
+                <img src="images/classic goulash.png" alt="classic-goulash">
+                <img src="images/Hibatchi.jpg" alt="hibatchi">
+               -->
+                
+                
+                
+                
             </div>
 
             
