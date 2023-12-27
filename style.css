@@ -173,7 +173,9 @@ body{
 .row{ 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
 
 
